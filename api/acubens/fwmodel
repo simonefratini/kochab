@@ -1,0 +1,52 @@
+{
+  "components" : [ {
+    "fw_info" : "fw_artifact/connectivity",
+    "cipher_type" : "AES-CBC-IV(0)",
+    "firmware_family_id" : "PVS-33.0",
+    "firmware_family_id_prog" : 1,
+    "authorization_key" : "010000013Q05",
+    "device_implementation_id" : "Q",
+    "platform_name" : "DEFAULT",
+    "master_key" : "7",
+    "type" : "connectivity",
+    "hash_type" : "SHA1",
+    "monolithic" : false    
+  }, {
+    "cipher_type" : "AES-CBC-IV(0)",
+    "firmware_family_id" : "PVS-33.0",
+    "firmware_family_id_prog" : 1,
+    "fw_info": "fw_artifact/data_model",
+    "authorization_key" : "010000013Q05",
+    "device_implementation_id" : "O",
+    "platform_name" : "DEFAULT",
+    "master_key" : "7",
+    "type" : "datamodel",
+    "hash_type" : "SHA1",
+    "monolithic" : false
+  }, {
+    "fw_info" : "fw_artifact/supervisor",
+    "cipher_type" : "Native",
+    "firmware_family_id" : "PVS-33.0",
+    "firmware_family_id_prog" : 1,
+    "authorization_key" : "010000013Q05",
+    "device_implementation_id" : "C",
+    "platform_name" : "i.MX-RT-1021",
+    "master_key" : "1",
+    "type" : "supervisor",
+    "hash_type" : "SHA1",
+    "monolithic" : true
+  }, {
+    "internal_version_number" : "2",
+    "fw_info" : "fw_artifact/booster_inverter",
+    "cipher_type" : "AES-CBC-IV(0)-NOPAD",
+    "firmware_family_id" : "PVS-33.0",
+    "firmware_family_id_prog" : 1,
+    "authorization_key" : "010000013Q05",
+    "device_implementation_id" : "B",
+    "platform_name" : "TMS320F28374D",
+    "master_key" : "1",
+    "type" : "booster_inverter",
+    "hash_type" : "MD5",
+    "monolithic" : true
+  } ]
+}
