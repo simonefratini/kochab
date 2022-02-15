@@ -1,0 +1,32 @@
+{
+    "PVS-8.5-3P": {
+        "inverter": [
+            "FIM-HY-8.5-3PH" 
+        ]
+    },
+    "PVS-20.0-2CH": {
+        "inverter": [
+            "PVS-20-TL" 
+        ]
+    },
+    "PVS-33.0": {
+        "inverter": [
+            "PVS-20-TL",
+            "PVS-30-TL",
+            "PVS-33-TL" 
+        ]
+    },
+    "PVS-5.0-1P": {
+        "inverter": [
+            "FIM-HY-6.0-1PH",
+            "FIM-HY-4.0-1PH" 
+        ]
+    },
+    "PVS-15.0": {
+        "inverter": [
+            "PVS-10-TL",
+            "PVS-12.5-TL",
+            "PVS-15-TL" 
+        ]
+    }
+}
