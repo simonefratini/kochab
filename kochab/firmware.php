@@ -11,7 +11,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER["REQUEST_METHOD"] == 'HEAD') {
 
 if (isset($_SERVER['REQUEST_URI'])) {
     $file_hash = basename(parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH));
-    error_log($file_hash);
+    error_log("richiesta scaricamento file:$file_hash");
 }
 
 if (strlen($file_hash)==128) {
